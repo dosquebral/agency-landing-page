@@ -409,3 +409,88 @@ header .container {
     color: var(--white);
     margin-inline: auto;
 }
+
+.contact {
+    margin-bottom: 120px;
+}
+
+.contact-content {
+    margin-bottom: 50px;
+}
+
+.contact-title {
+    color: var(--royal-blue-dark);
+    margin-bottom: 60px;
+    text-align: center;
+    font-weight: var(--fw-500) !important;
+}
+ 
+.contact-banner img {
+    width: 100%;
+}
+
+.input-wrapper {
+    margin-bottom: 30px;
+}
+
+.input-label {
+    color: var(--oxford-blue);
+    font-size: var(--fs-6);
+    font-weight: var(--fw-600);
+    margin-bottom: 10px;
+}
+
+.input-field {
+    border-bottom: 1px solid var(--platinum);
+    padding: 7px 0;
+    font-size: var(--fs-6);
+}
+
+.input-field::placeholder {
+    color: var(--silver-chalice);
+}
+
+textarea {
+    max-height: 300px;
+    min-height: 100px;
+    height: 100px;
+    resize: vertical;
+}
+
+footer {
+    background: var(--white-2);
+}
+
+.footer-top {
+    padding: 80px 0 50px;
+}
+
+.footer-brand {
+    margin-bottom: 20px;
+}
+
+footer .logo {
+    margin-bottom: 30px;
+}
+
+.footer-text {
+    color: var(--rythm);
+    font-size: var(--fs-6);
+    margin-bottom: 20px;
+}
+
+.social-list {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.social-link {
+    color: var(--rythm);
+    font-size: var(--fs-4);
+    margin-bottom: 10px;
+}
+
+.social-link:is(:hover, :focus) {
+    color: var(--french-rose);
+}
