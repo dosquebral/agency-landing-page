@@ -10,3 +10,13 @@ const elemToggleFunc = function (elem) {
 menuToggleBtn.addEventListener('click', function () {
     elemToggleFunc(navbar);
 })
+
+const goTopBtn = document.querySelector("[data-go-top]");
+
+window.addEventListener("scroll", function() {
+    if(window.scrollY >= 800) {
+        goTopBtn.classList.add('active');
+    } else {
+        goTopBtn.classList.remove('active');
+    }
+})
